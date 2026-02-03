@@ -7,8 +7,8 @@
     "build": "npm install --include=dev && tsc && npm run copy-static && npm run copy-env",
     "copy-static": "cpx \"src/public/**/*\" dist",
     "copy-env": "cpx \"src/.env\" dist",
-    "start": "ts-node src/index.ts",
-    "dev": "tsc-watch --onSuccess \"node dist/index.ts\""
+    "start": "node index.js",
+    "dev": "ts-node-dev src/index.ts"
   },
   "keywords": [],
   "author": "",

@@ -1,7 +1,7 @@
 import ControllerData from "../interfaces/ControllerData.js";
 import CallbackFunction from "../interfaces/CallbackFunction.js";
 import { CRUDOperations, requestAPI } from "../../utils/API.js";
-import Data from "../../utils/Data.js";
+import Data from "../../utils/Data";
 import { sockets } from "../onlines.js";
 
 export const authenticate = async (

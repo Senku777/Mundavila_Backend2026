@@ -42,7 +42,7 @@ import CustomSocket from "../interfaces/CustomSocket.js";
 import ReassignIdentityData from "../interfaces/ReassignIdentityData.js";
 import PingData from "../interfaces/PingData.js";
 
-import { minutesToMiliseconds } from "../../utils/utils.js";
+import { minutesToMiliseconds } from "../../utils/utils";
 import { generateRandomNumberExtended } from "../helpers/estandarizadores.js";
 import { modifyOnlineUsers, online, sockets, usersRooms } from "../onlines.js";
 import { get_countries, get_roles } from "./specials.controller.js";

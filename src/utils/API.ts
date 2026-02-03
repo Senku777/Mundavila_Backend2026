@@ -3,7 +3,7 @@ import { getSockets } from "../server/controllers/general.controller";
 import CallbackFunction from "../server/interfaces/CallbackFunction.js";
 import ControllerData from "../server/interfaces/ControllerData.js";
 import { sockets } from "../server/onlines.js";
-import Data from "./Data.js";
+import Data from "./Data";
 
 // Plantilla reutilizable para operaciones CRUD
 export const CRUDOperations = async (

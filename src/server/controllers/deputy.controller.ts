@@ -1,6 +1,6 @@
 import ControllerData from "../interfaces/ControllerData.js";
 import CallbackFunction from "../interfaces/CallbackFunction.js";
-import { CRUDOperations, requestAPI } from "../../utils/API.js";
+import { CRUDOperations, requestAPI } from "../../utils/API";
 import Data from "../../utils/Data";
 import { sockets } from "../onlines.js";
 

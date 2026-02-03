@@ -1,5 +1,5 @@
 import RequestAPIData from "../interfaces/RequestAPIData.js";
-import { getSockets } from "../server/controllers/general.controller.js";
+import { getSockets } from "../server/controllers/general.controller";
 import CallbackFunction from "../server/interfaces/CallbackFunction.js";
 import ControllerData from "../server/interfaces/ControllerData.js";
 import { sockets } from "../server/onlines.js";

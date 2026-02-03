@@ -5,7 +5,7 @@ import { Server as SocketServer, Socket } from "socket.io";
 import dotenv from "dotenv";
 import generalController from "./server/controllers/general.controller";
 import path from "path";
-import { __dirname } from "./utils/utils.js";
+import { __dirname } from "./utils/utils";
 import { createRoutes } from "./model/routes/index.js";
 import { dbConnection } from "./model/config/databaseConection.js";
 

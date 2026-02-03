@@ -2,7 +2,7 @@ import path from "path";
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import moment from "moment-timezone";
-import { getSockets } from "../server/controllers/general.controller.js";
+import { getSockets } from "../server/controllers/general.controller";
 import { online } from "../server/onlines.js";
 
 export const PRIVATEKEY = `MyPubl1cK3yS3cr3t${new Date().getDate()}k3yS3c4r1ty`;

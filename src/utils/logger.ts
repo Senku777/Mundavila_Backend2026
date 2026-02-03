@@ -6,7 +6,7 @@ import {
   consoleConnection,
   getFechaCubaText,
   getHoraCubaText,
-} from "./utils.js";
+} from "./utils";
 
 const transporter = nodemailer.createTransport({
   service: "gmail",

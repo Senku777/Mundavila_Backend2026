@@ -12,7 +12,7 @@ import {
   get_list_general_presidents,
   get_list_general_secretaries,
   delete_permanent_deputy,
-} from "./deputy.controller.js";
+} from "./deputy.controller";
 
 import {
   create_edition,

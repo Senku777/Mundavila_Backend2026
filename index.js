@@ -1,10 +1,7 @@
-// index.js - Punto de entrada para Render
-console.log('🚀 Iniciando backend...');
+// index.js - CommonJS simple
+console.log('🚀 Iniciando Backend ISRI...');
+console.log('PORT:', process.env.PORT || 3001);
 
-// Cargar ts-node para ejecutar TypeScript directamente
+require('dotenv').config();
 require('ts-node/register');
-
-// Ejecutar la aplicación principal
 require('./src/index.ts');
-
-console.log('✅ Backend cargado correctamente');

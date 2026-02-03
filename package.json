@@ -1,5 +1,5 @@
 {
-  "name": "ISRI Project",
+  "name": "Mundavila Project",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "class-validator": "^0.14.2",
